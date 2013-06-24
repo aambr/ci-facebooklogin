@@ -11,3 +11,5 @@ $config = array(
 	'prod' => array(
 	)
 );
+
+$config = $config[$env];
