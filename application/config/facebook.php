@@ -6,9 +6,8 @@ $config = array(
 	'dev' => array(
 		'APP_ID' => 123,
 		'APP_SECRET' => 'secret',
-		'REDIRECT_URI' => 'http://claims.local/facebooklogin'
+		'REDIRECT_URI' => 'http://localhost/facebooklogin'
 	),
 	'prod' => array(
-		//
 	)
 );
