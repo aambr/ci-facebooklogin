@@ -10,12 +10,12 @@ Edit config file with your defaults. Used config file is prepared to be used on 
 * Load it as any other lib ```$this->load->library('facebook');```
 * Place login button on site, You can pass this to your template:
 ```'facebook_login_url' => $this->facebook->get_login_url()```
-It will compute a link based on Your config settings.
+This will generate a link based on Your config settings.
 * ```Facebbok::getAPI``` is used as a factory to spawn an object which will be used as a proxy to communicate with Facebook API after successful authentication of a user.
 * Handle errors in try-catch block
 * Use instantiated FacebookAPI object to call methods, ```/me``` for example
 
-### Example controller
+### Example authentication controller
 ```php
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
